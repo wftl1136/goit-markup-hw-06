@@ -3,6 +3,12 @@
     box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .header
 .container { 
     display: flex;
@@ -497,12 +503,6 @@ body {
     column-gap: 24px;
     row-gap: 48px;
     width: 288px;
-height: 400px;
-top: 3816px;
-left: 16px;
-gap: 0px;
-opacity: 0px;
-    
 }
 
 @media screen and (min-width: 768px) {
