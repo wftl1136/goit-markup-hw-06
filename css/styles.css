@@ -400,14 +400,16 @@ body {
 }
       
 .team-h {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-align: center;
-    margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
+    max-width: 320px;
 }
+
 
 .team-text{
     font-size: 16px;
@@ -494,6 +496,12 @@ body {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    width: 288px;
+height: 400px;
+top: 3816px;
+left: 16px;
+gap: 0px;
+opacity: 0px;
     
 }
 
