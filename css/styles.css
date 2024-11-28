@@ -498,11 +498,10 @@ body {
     padding-bottom: 120px;
 }
 .portfolio-list {
-    max-width: 320px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: 288px;
+    
 }
 
 @media screen and (min-width: 768px) {
