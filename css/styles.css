@@ -693,7 +693,7 @@ text-decoration-skip-ink: none;
 }
 
 .portfolio-li {
-    
+    max-width: 320px;
 }
 @media screen and (min-width: 768px) {
     .portfolio-li  {
