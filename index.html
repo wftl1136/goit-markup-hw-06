@@ -17,26 +17,87 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="header">
-        <div class="container">
-        <nav class="nav-header">
-       <a class="logo" href="./index.html">Web<span class="dark">Studio</span></a>
-        <ul class="header-list">
-            <li class="header-item"><a href="./index.html" class="header-items active">Studio</a></li>
-            <li class="header-item"><a href="" class="header-items">Portfolio</a></li>
-            <li class="header-item"><a href="" class="header-items">Contacts</a></li>
-        </ul>
-    </nav>
-    <address class="address">
-    <ul class="address-list"> 
-        <li class="adress-item">
-            <a href="mailto:info@devstudio.com" class="header-contacts">info@devstudio.com</a></li>
-        <li class="adress-item">
-            <a href="tel:+110001111111" class="header-contacts">+11 (000) 111-11-11</a></li>
-    </ul>
-</address>
-</div>
-    </header>
+    <header class="page-header">
+        <div class="container header-container">
+          <nav class="header-nav">
+            <a class="logo header-logo" href="./index.html"
+              >Web<span class="logo-part">Studio</span></a
+            >
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a class="nav-link current" href="./index.html">Studio</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
+            </ul>
+          </nav>
+  
+          <address class="contacts">
+            <ul class="contacts-list">
+              <li class="contacts-item">
+                <a class="contacts-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="contacts-item">
+                <a class="contacts-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+  
+          <button class="burger-btn" type="button" data-menu-open>
+            <svg class="burger-icon" width="24" height="24">
+              <use href="./images/icons/burger.svg#icon-burger"></use>
+            </svg>
+          </button>
+        </div>
+  
+        <div class="mobile-menu" data-menu>
+          <div class="container mobile-menu-container">
+            <button class="mobile-menu-close" data-menu-close>Close</button>
+            <nav class="mobile-menu-nav">Studio
+                <p>Portfolio</p>
+                <p>Contacts</p>
+            </nav>
+            <address>+11 (000) 111-11-11
+                info@devstudio.com</address>
+            <div>
+                <ul class="social_media_list">
+                    <li class="social_media_item">
+                      <a href="https://www.instagram.com" class="social_media_link">
+                        <svg class="footer-icon" width="24" height="24">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social_media_item">
+                      <a href="https://x.com" class="social_media_link">
+                        <svg class="footer-icon" width="24" height="24">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social_media_item">
+                      <a href="https://www.facebook.com" class="social_media_link">
+                        <svg class="footer-icon" width="24" height="24">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social_media_item">
+                      <a href="https://www.linkedin.com" class="social_media_link">
+                        <svg class="footer-icon" width="24" height="24">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+            </div>
+          </div>
+        </div>
+      </header>
     
     <!-- Main Content -->
 <main class="main">
@@ -455,52 +516,7 @@
         </form>
     </div>
 </div>
-<div class="mobile-menu is-open">
-    <button class="mobile-menu-bth" type="button">
-
-    </button>
-    <ul class="mobile-menu-list">
-        <li>
-            Studio
-        </li>
-        <li>
-            Portfolio
-        </li>
-        <li>
-            Contacts
-        </li>
-    </ul>
-    <ul class=".mobile-icon-list">
-        <li class="social_media_item">
-          <a href="https://www.instagram.com" class="social_media_link">
-            <svg class="footer-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="social_media_item">
-          <a href="https://x.com" class="social_media_link">
-            <svg class="footer-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-twitter"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="social_media_item">
-          <a href="https://www.facebook.com" class="social_media_link">
-            <svg class="footer-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="social_media_item">
-          <a href="https://www.linkedin.com" class="social_media_link">
-            <svg class="footer-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-linkedin"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-</div>
 <script src="./js/modal.js"></script>
+<script src="./js/menu.js"></script>
 </body>
 </html>
