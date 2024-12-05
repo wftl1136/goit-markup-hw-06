@@ -223,7 +223,66 @@
       letter-spacing: 0.02em;
     }
   }
-  
+
+.mobile-contact-list {
+ margin-bottom: 48px;
+}
+
+  .mobile-contact-item {
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-bottom: 24px;
+  }
+
+  .mobile-contact-item.pasts {
+   color: #434455;
+  }
+
+  .social-mobile-list {
+    display: flex;
+    gap: 40px;
+  }
+
+.mobile-close{
+top: 32px;
+left: 256px;
+gap: 0px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+}
+
+  .mobile-menu-items {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #404BBF;
+    
+      }
+
+  .mobile-menu-item {
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+display: flex;
+color: #2e2f42;
+  }
+
 /* main-section */
 .main_section {
     background-color: #2e2f42;
