@@ -684,7 +684,6 @@
   
   @media screen and (min-width: 768px) {
     .portfolio-list {
-        width: calc((100% - 24px) / 2);
       gap: 72px 24px;
     }
   }
