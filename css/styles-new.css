@@ -678,13 +678,13 @@
   
   .portfolio-list {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 48px;
   }
   
   @media screen and (min-width: 768px) {
     .portfolio-list {
+        width: calc((100% - 24px) / 2);
       gap: 72px 24px;
     }
   }
@@ -692,6 +692,8 @@
   @media screen and (min-width: 1158px) {
     .portfolio-list {
       gap: 39px 24px;
+      flex-direction: row;
+    flex-wrap: wrap;
     }
   }
   @media screen and (max-width: 1157px) {
